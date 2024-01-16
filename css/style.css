@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #0A0A09;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+/* header  */
+.header {
+    margin-bottom: 173px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 22px;
+}
+
+.nav__right {
+    display: flex;
+    gap: 125px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 125px;
+}
+
+.nav__link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.nav__mumber {
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    color: #FFF;
+}
+
+/* hero  */
+
+.hero {
+    padding-top: 117px;
+    padding-bottom: 312px;  
+    background-image: url(../images/hero-map-bg.png),url(../images/hero-img.png), url(../images/hero-liner.png);
+    background-repeat: no-repeat;
+    background-position: center, right center, right top;
+}
+
+.hero__title {
+    margin-bottom: 48px;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.15px;
+    color: #FFF;
+}
+
+.hero__title__gold {
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.15px;
+    color: #D4CC7B;
+}
+
+.hero__text {
+    margin-bottom: 48px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    color: #FFF;
+}
+
+.hero__btn {    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #000;
+    padding: 22px 54px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(280deg, #FFF -23.59%, #DBB500 115.07%);
+    box-shadow: 0px 0px 20px 0px #D6A500;
+}
+
+
+/* main  */
+
+.auto-park {
+    background-image: url(../images/bmw-bg.png), url(../images/mercedez-bg.png), url(../images/kia-bg.png), url(../images/vw-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 300px, center right, left bottom 340px, bottom right 400px;
+}
+
+.auto-park__title {
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    color: #FFF;
+}
+
+.gold__text {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    color: #D4CC7B;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    width: 32%;
+    margin-bottom: 49px;
+    padding: 20px;
+    background-color: #0B0D0F;;
+    stroke-width: 1px;
+    stroke: rgba(126, 126, 126, 0.40);
+    filter: drop-shadow(0px 4px 10px rgba(124, 124, 124, 0.20));
+}
+
+.card__top {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__bmw__image {
+    margin-bottom: 24px;
+}
+
+.card__icons {
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.card__text {
+    /* margin-bottom: 24px; */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #FFF;
+}
+
+.card__button {
+    margin: 0 auto;
+    margin-top: 24px;
+    background-color: transparent;
+    padding: 16px 51px 23px 44px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #ECD774;
+    box-shadow: 0px 0px 5px 0px #D6A500;
+}
+
+.card__gold__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #ECD774;
+}
+
+/* rent  */
+
+.rent {
+    margin-bottom: 50px;
+    padding-top: 88px;
+    padding-bottom: 252px;
+    border: 1px solid #242626;
+    background-color: #161616;
+    box-shadow: 0px 0px 20px 0px rgba(37, 37, 37, 0.80);
+    background-image: url(../images/rent-image.png), url(../images/rent-liner.png);
+    background-repeat: no-repeat;
+    background-position:  bottom left, center;
+}
+
+.rent .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rent__title {
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    color: #FFF;
+}
+
+.rent__list {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-bottom: 68px;
+}
+
+.rent__item__img {
+    margin-bottom: 35px;
+}
+
+.rent__item p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #FFF;
+}
+
+.rent__btn {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #0C0F12;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #F8B500;
+    background: #ECD774;
+    box-shadow: 0px 0px 5px 0px #EFAC00;
+}
+
+/* footer  */
+
+.footer {
+    padding-top: 44px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    margin-bottom: 34px;
+}
+
+.footer__left {
+    width: 33%;
+}
+
+.footer__subtitle {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.5%;
+    letter-spacing: -1.08px;
+    color: #FFF;
+}
+
+.footer__text {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: #FFF;
+}
+
+.footer__right__net {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 52px;
+}
